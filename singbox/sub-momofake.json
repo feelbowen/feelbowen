@@ -35,13 +35,13 @@
     {"tag": "Microsoft", "type": "selector", "outbounds": ["🎯 直连", "🇭🇰 香港手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "👋 手动选择"]},
     {"tag": "OneDrive", "type": "selector", "outbounds": ["🎯 直连", "🇭🇰 香港手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "👋 手动选择"]},
     {"tag": "Apple", "type": "selector", "outbounds": ["🎯 直连", "🇭🇰 香港手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "👋 手动选择"]},
-    {"tag": "漏网之鱼", "type": "selector", "outbounds": ["🚀 默认代理", "🎯 直连"]},
     {"tag": "🇭🇰 香港手动", "type": "selector", "outbounds": []},
     {"tag": "🇯🇵 日本手动", "type": "selector", "outbounds": []},
     {"tag": "🇸🇬 狮城手动", "type": "selector", "outbounds": []},
     {"tag": "🇺🇲 美国手动", "type": "selector", "outbounds": []},
     {"tag": "👋 手动选择", "type": "selector", "outbounds": []},
     {"tag": "♻️ 自动选择", "type": "urltest", "outbounds": []},
+    {"tag": "🐟 漏网之鱼", "type": "selector", "outbounds": ["🚀 默认代理", "🎯 直连"]},
     {"tag": "⌛️ 延迟辅助", "type": "urltest", "outbounds": ["🚀 默认代理", "🎯 直连"]},
     {"tag": "🌍 GLOBAL", "type": "selector", "outbounds": ["🚀 默认代理", "🇭🇰 香港手动", "🇯🇵 日本手动", "🇸🇬 狮城手动", "🇺🇲 美国手动", "👋 手动选择", "♻️ 自动选择", "🎯 直连"]},
     {"tag": "🎯 直连", "type": "direct"}
@@ -101,7 +101,7 @@
       {"tag": "bowen-personal", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/feelbowen/feelbowen/refs/heads/main/rules/bowen-personal.json", "download_detour": "🎯 直连"},
       {"tag": "example", "type": "inline", "rules": [{"domain_suffix": ["111.aaaa","222.bbbb"]}]}
     ],
-    "final": "漏网之鱼",
+    "final": "🐟 漏网之鱼",
     "default_domain_resolver": {"server": "public"}
   },
   "inbounds": [
