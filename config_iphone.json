@@ -45,7 +45,7 @@
 
 "route": {
   "rules": [
-    { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "hijack-dns" },
+    { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "action": "hijack-dns" },
     {"clash_mode": "direct", "outbound": "🎯 全球直连"},
     {"clash_mode": "global", "outbound": "GLOBAL"},
     {"rule_set": "bowen-work", "outbound": "🎯 全球直连"},
