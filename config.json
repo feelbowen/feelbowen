@@ -106,28 +106,15 @@
   },
   "inbounds": [
     {
-      "tag": "dns-in",
-      "type": "direct",
-      "listen": "::",
-      "listen_port": 1053
-    },
-    {
-      "tag": "http-in",
-      "type": "http",
-      "listen": "::",
-      "listen_port": 8080
-    },
-    {
-      "tag": "socks-in",
-      "type": "socks",
-      "listen": "::",
-      "listen_port": 1080
-    },
-    {
-      "tag": "redirect-in",
-      "type": "redirect",
-      "listen": "::",
-      "listen_port": 7890
+      "tag": "tun-in",
+      "type": "tun",
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true
     }
   ],
   "log": {
