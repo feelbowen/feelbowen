@@ -99,7 +99,7 @@
       {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/qljsyph/ruleset-icon/raw/refs/heads/main/sing-box/geoip/China-ASN-combined-ip.srs", "download_detour": "🎯 全球直连"},
       {"tag": "bowen-work", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/feelbowen/feelbowen/refs/heads/main/rules/bowen-work.json", "download_detour": "🎯 全球直连"},
       {"tag": "bowen-personal", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/feelbowen/feelbowen/refs/heads/main/rules/bowen-personal.json", "download_detour": "🎯 全球直连"},
-      {"tag": "example", "type": "inline", "rules": [{"111": ["222"]}]}
+      {"tag": "example", "type": "inline", "rules": [{"domain_suffix": ["111.aaaa","222.bbbb"]}]}
     ],
     "final": "🐠 漏网之鱼",
     "auto_detect_interface": true,
