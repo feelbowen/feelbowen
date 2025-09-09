@@ -99,7 +99,7 @@
       {"tag": "bowen-personal", "type": "remote", "format": "source", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/feelbowen/feelbowen/refs/heads/main/rules/bowen-personal.json", "download_detour": "🎯 直连"},
       {"tag": "example", "type": "inline", "rules": [{"domain_suffix": ["111.aaaa","222.bbbb"]}]}
     ],
-    "final": "🎯 直连",
+    "final": "🚀 默认代理",
     "default_domain_resolver": {"server": "public"}
   },
   "inbounds": [
