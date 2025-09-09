@@ -74,9 +74,7 @@
       {"rule_set": "geoip-apple", "outbound": "🍏 Apple"},
       {"rule_set": "geoip-telegram", "outbound": "📲 Telegram"},
       {"rule_set": "geoip-netflix", "outbound": "🎥 Netflix"},
-      {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"},
-      {"rule_set": "bowen-work", "outbound": "🎯 全球直连"},
-      {"rule_set": "bowen-personal", "outbound": "🎯 全球直连"}
+      {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
     "rule_set": [
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "🎯 全球直连"},
