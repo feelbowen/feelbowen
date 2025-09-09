@@ -115,6 +115,12 @@
       "mtu": 9000,
       "auto_route": true,
       "strict_route": true
+    },
+    {
+      "tag": "socks-in",
+      "type": "socks",
+      "listen": "::",
+      "listen_port": 1080
     }
   ],
   "log": {
