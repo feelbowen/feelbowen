@@ -10,7 +10,9 @@
         "sync.feelbowen.zone",
         "nas.feelbowen.zone"
       ],
-      "domain_suffix": "feelbowen.zone"
+      "domain_suffix": [
+        "feelbowen.zone"
+      ]
     }
   ]
 }
