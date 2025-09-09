@@ -4,7 +4,11 @@
     {
       "domain": [
         "stx.feelbowen.zone",
-        "webdav.feelbowen.zone"
+        "webdav.feelbowen.zone",
+        "stx.feelbowen.zone",
+        "nextcloud.feelbowen.zone",
+        "sync.feelbowen.zone",
+        "nas.feelbowen.zone"
       ]
     }
   ]
