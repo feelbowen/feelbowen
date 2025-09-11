@@ -1,6 +1,6 @@
-# 代理补充列表
-
-# 域名后缀匹配
-DOMAIN-SUFFIX,itg.com.cn
-DOMAIN-SUFFIX,xindeco.com
-DOMAIN-SUFFIX,yqcloud.com
+itg.com.cn
++.itg.com.cn
+xindeco.com
++.xindeco.com
+yqcloud.com
++.yqcloud.com
