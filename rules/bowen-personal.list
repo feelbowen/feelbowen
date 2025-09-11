@@ -6,7 +6,6 @@ DOMAIN-SUFFIX,feelbowen.zone
 # 域名匹配
 DOMAIN,stx.feelbowen.zone
 DOMAIN,webdav.feelbowen.zone
-DOMAIN,stx.feelbowen.zone
 DOMAIN,nextcloud.feelbowen.zone
 DOMAIN,sync.feelbowen.zone
 DOMAIN,nas.feelbowen.zone
