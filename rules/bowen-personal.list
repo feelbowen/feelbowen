@@ -1,6 +1,12 @@
-stx.feelbowen.zone
-webdav.feelbowen.zone
-stx.feelbowen.zone
-nextcloud.feelbowen.zone
-sync.feelbowen.zone
-nas.feelbowen.zone
+# 代理补充列表
+
+# 域名后缀匹配
+DOMAIN_SUFFIX,feelbowen.zone
+
+# 域名匹配
+DOMAIN,stx.feelbowen.zone
+DOMAIN,webdav.feelbowen.zone
+DOMAIN,stx.feelbowen.zone
+DOMAIN,nextcloud.feelbowen.zone
+DOMAIN,sync.feelbowen.zone
+DOMAIN,nas.feelbowen.zone
