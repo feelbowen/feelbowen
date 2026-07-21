@@ -87,7 +87,7 @@
   "config/group-proxies-by-provider": "false",
   "config/proxy-group-icon-size": "24",
   "config/auto-ip-check": "true",
-  "config/import-settings-url": "./zashboard-settings.json",
+  "config/import-settings-url": "https://raw.githubusercontent.com/feelbowen/feelbowen/refs/heads/main/config/zashboard-settings.json",
   "config/emoji": "twemoji",
   "config/dark-theme": "dark",
   "config/display-now-node-in-rule": "true",
