@@ -8,7 +8,7 @@
   "config/auto-upgrade-core": "false",
   "config/quick-filter-enabled": "false",
   "config/display-global-by-mode": "true",
-  "config/auto-sync-settings": "true",
+  "config/auto-sync-settings": "false",
   "config/table-expanded": "{}",
   "config/proxy-card-size": "large",
   "config/table-column-pinning": "{\"left\":[],\"right\":[]}",
