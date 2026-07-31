@@ -39,9 +39,9 @@
   "config/connection-sort-direction": "asc",
   "config/swipe-in-pages": "true",
   "config/split-overview-page": "true",
-  "config/speedtest-timeout": "5000",
   "config/disable-proxies-page-text-select": "true",
   "config/log-retention-limit": "1000",
+  "config/speedtest-timeout": "5000",
   "config/default-theme": "light",
   "config/proxy-preview-type": "auto",
   "config/connection-history-auto-cleanup-interval": "month",
@@ -55,7 +55,7 @@
   "config/independent-latency-test": "false",
   "config/hide-unavailable-proxies": "false",
   "config/table-grouping": "[]",
-  "config/proxy-folders": "{\"folders\":[{\"id\":\"builtin-strategy\",\"name\":\"folder_builtin_strategy\",\"order\":0,\"rules\":[],\"manualIncludes\":[\"AI\",\"YouTube\",\"Google\",\"Docker\",\"Github\",\"Telegram\",\"TikTok\",\"Netflix\",\"Pornhub\",\"PayPal\",\"Steam\",\"Adobe\",\"Microsoft\",\"Apple\",\"OneDrive\",\"Work\",\"Home\",\"漏网之鱼\"]},{\"id\":\"builtin-nodes\",\"name\":\"folder_builtin_nodes\",\"order\":1,\"rules\":[],\"manualIncludes\":[\"默认代理\",\"香港\",\"日本\",\"狮城\",\"美国\",\"香港·M\",\"日本·M\",\"狮城·M\",\"美国·M\",\"香港·A\",\"日本·A\",\"狮城·A\",\"美国·A\",\"手动选择\"]}],\"activeId\":\"builtin-strategy\",\"seeded\":true}",
+  "config/proxy-folders": "{\"folders\":[{\"id\":\"builtin-strategy\",\"name\":\"folder_builtin_strategy\",\"order\":0,\"rules\":[],\"manualIncludes\":[\"AI\",\"YouTube\",\"Google\",\"Docker\",\"Github\",\"Telegram\",\"TikTok\",\"Netflix\",\"Pornhub\",\"PayPal\",\"Steam\",\"Adobe\",\"Microsoft\",\"Apple\",\"OneDrive\",\"Work\",\"Home\",\"漏网之鱼\"]},{\"id\":\"builtin-nodes\",\"name\":\"folder_builtin_nodes\",\"order\":1,\"rules\":[],\"manualIncludes\":[\"默认代理\",\"香港\",\"日本\",\"狮城\",\"美国\",\"香港·M\",\"日本·M\",\"狮城·M\",\"美国·M\",\"香港·A\",\"日本·A\",\"狮城·A\",\"美国·A\",\"手动选择\",\"US♻️\",\"SG♻️\",\"JP♻️\",\"HK♻️\",\"HK⭐️\",\"JP⭐️\",\"SG⭐️\",\"US⭐️\",\"美国🔄\",\"狮城🔄\",\"日本🔄\",\"香港🔄\",\"美国⭐️\",\"狮城⭐️\",\"日本⭐️\",\"香港⭐️\",\"美国♺\",\"狮城♺\",\"日本♺\",\"香港♺\",\"美国·♺\",\"狮城·♺\",\"日本·♺\",\"香港·♺\",\"香港·★\",\"狮城·★\",\"美国·★\",\"日本·★\"]}],\"activeId\":\"builtin-nodes\",\"seeded\":true}",
   "config/proxy-chain-direction": "normal",
   "config/source-ip-label-list": "[]",
   "config/custom-background-image": "",
@@ -91,5 +91,5 @@
   "config/emoji": "twemoji",
   "config/dark-theme": "dark",
   "config/display-now-node-in-rule": "true",
-  "config/is-sidebar-collapsed": "true"
+  "config/is-sidebar-collapsed": "false"
 }
