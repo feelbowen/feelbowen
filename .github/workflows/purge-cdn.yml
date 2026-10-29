@@ -6,22 +6,24 @@ on:
       - main
     paths:
       - 'rules/**'
+      - 'icons/**'      # 示例：新增监控 icons 目录
 
 jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5  # 已适配 Node 24，不会再弹出 Deprecated 警告
+        uses: actions/checkout@v5
         with:
           fetch-depth: 2
 
       - name: Purge Updated Files
         run: |
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep '^rules/' || true)
+          # 正则匹配所有需要监控的目录前缀
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '^(rules|icons)/' || true)
 
           if [ -z "$CHANGED_FILES" ]; then
-            echo "没有检测到 rules 目录下的文件变更。"
+            echo "没有检测到监控目录下的文件变更。"
             exit 0
           fi
 
