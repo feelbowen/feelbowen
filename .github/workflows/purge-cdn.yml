@@ -1,0 +1,35 @@
+name: Auto Purge jsDelivr CDN
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'rules/**'  # 仅当 rules 目录下有文件变更并 Commit 时触发
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # 获取最近 2 次提交以对比变更文件
+
+      - name: Purge Updated Files
+        run: |
+          # 获取本次 Commit 修改或新增的文件路径
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep '^rules/' || true)
+
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "没有检测到 rules 目录下的文件变更。"
+            exit 0
+          fi
+
+          echo "检测到变更文件，开始清理 jsDelivr CDN 缓存..."
+          for FILE in $CHANGED_FILES; do
+            URL="https://purge.jsdelivr.net/gh/${{ github.repository }}@refs/heads/main/${FILE}"
+            echo "正在 Purge: ${URL}"
+            RESPONSE=$(curl -s -w "\nHTTP_STATUS:%{http_code}" "$URL")
+            echo "$RESPONSE"
+          done
