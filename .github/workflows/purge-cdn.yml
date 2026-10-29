@@ -5,20 +5,19 @@ on:
     branches:
       - main
     paths:
-      - 'rules/**'  # 仅当 rules 目录下有文件变更并 Commit 时触发
+      - 'rules/**'
 
 jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2  # 更新至包含 Node 24 适配的最新补丁版本
         with:
-          fetch-depth: 2  # 获取最近 2 次提交以对比变更文件
+          fetch-depth: 2
 
       - name: Purge Updated Files
         run: |
-          # 获取本次 Commit 修改或新增的文件路径
           CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep '^rules/' || true)
 
           if [ -z "$CHANGED_FILES" ]; then
